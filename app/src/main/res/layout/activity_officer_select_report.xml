@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OfficerSelectReport"
+    android:padding="0dp">
+    <ProgressBar
+        android:id="@+id/idPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        tools:context=".OfficerSelectReport"
+        android:id="@+id/reportInfoLL"
+        android:visibility="gone"
+        android:padding="20dp">
+    <TextView
+        android:id="@+id/reportIDTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report ID: "
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/reportDateAndTimeTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported on: "/>
+    <TextView
+        android:id="@+id/reportUserNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported by: "/>
+    <TextView
+        android:id="@+id/commentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment: "/>
+    <TextView
+        android:id="@+id/categoryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: "/>
+    <TextView
+        android:id="@+id/burningAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Address: "/>
+    <TextView
+        android:id="@id/userAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Address: "/>
+    <TextView
+        android:id="@+id/userPhoneNumTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User contact information: "/>
+        <LinearLayout
+            android:id="@+id/attachmentLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Media attachment: "/>
+            <TextView
+                android:id="@+id/attachmentTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_700"
+                android:text="filename"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action taken: "/>
+
+        <EditText
+        android:id="@+id/actionTakenET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
+        android:text=""/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Remark: "/>
+        <EditText
+            android:id="@+id/remarkET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text=""/>
+
+    <Button
+        android:id="@+id/buttonUpdateResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Update Response" />
+    </LinearLayout>
+</LinearLayout>

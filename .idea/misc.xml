@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/drawable/ic_launcher_background.xml" value="0.15" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/drawable/ic_pin.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/drawable/small_button_shape.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_all_report.xml" value="0.18" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_all_report_list.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_assign_officer.xml" value="0.17119565217391305" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_dashboard.xml" value="0.25" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_generate_report.xml" value="0.264" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_manage_user.xml" value="0.4" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_new_report.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_oireport.xml" value="0.12613981762917933" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_select_report.xml" value="0.25" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_admin_select_user.xml" value="0.19157608695652173" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_loading.xml" value="0.12182971014492754" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_loading_screen.xml" value="0.1" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_map.xml" value="0.22" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_officer_assigned_report.xml" value="0.264" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_officer_select_report.xml" value="0.25" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_file_report.xml" value="0.22121212121212122" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_main_page.xml" value="0.1" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_registration_page.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_report_history.xml" value="0.1" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_select_report.xml" value="0.25" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/activity_user_update_info.xml" value="0.22" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/login_activity.xml" value="0.22" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/officer_row.xml" value="0.33" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/report_row.xml" value="0.33" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/update_response_dialog.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/layout/user_row.xml" value="0.1" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/menu/assign_officer_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/menu/example_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/menu/usermainpage_menu.xml" value="0.259375" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2755208333333333" />
+        <entry key="..\:/Users/alhai/AndroidStudioProjects/NotiFire/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26614583333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.536" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

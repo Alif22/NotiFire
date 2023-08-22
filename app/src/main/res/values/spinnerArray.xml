@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category">
+        <item>Residential area</item>
+        <item>Religious activity</item>
+        <item>Forest/Bushes</item>
+        <item>Plantation</item>
+        <item>Industry</item>
+        <item>Disposal site</item>
+        <item>Construction site</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="state">
+        <item>Johor</item>
+        <item>Kedah</item>
+        <item>Kelantan</item>
+        <item>Melaka</item>
+        <item>Negeri Sembilan</item>
+        <item>Pahang</item>
+        <item>Penang</item>
+        <item>Perak</item>
+        <item>Perlis</item>
+        <item>Sabah</item>
+        <item>Sarawak</item>
+        <item>Selangor</item>
+        <item>Terengganu</item>
+    </string-array>
+    <string-array name= "report_status">
+        <item>Ongoing investigation</item>
+        <item>New</item>
+        <item>Resolved</item>
+    </string-array>
+</resources>

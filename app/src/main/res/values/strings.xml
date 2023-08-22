@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">NotiFire</string>
+    <string name="loginField">Email/Phone Number</string>
+    <string name="passwordField">Password</string>
+    <string name="sign_in">Sign in</string>
+    <string name="register">register</string>
+    <string name="fill_report_without_log_in">Fill report without log in</string>
+    <string name="file_open_burning_report">File open burning report</string>
+    <string name="check_report_status_and_history">Check report status and history</string>
+    <string name="date_12_10_2021_time_1_00_p_m">Date: 12/10/2021 Time: 1.00 P.M</string>
+    <string name="status_on_investigation">Status: On Investigation</string>
+    <string name="report_id_25567893309">Report ID: 25567893309</string>
+    <string name="resolved">Status: Resolved</string>
+    <string name="report_id_4745672541">Report ID: 4745672541</string>
+    <string name="date_10_10_2021_time_9_00_a_m">Date: 10/10/2021 Time: 9.00 A.M</string>
+    <string name="assigned_to">Assigned to:</string>
+</resources>

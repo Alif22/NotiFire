@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OfficerSelectReport"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/reportInfoLL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        tools:context=".OfficerSelectReport"
+        android:visibility="gone"
+        android:padding="20dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report ID: "
+        android:id="@+id/reportIDTV"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/reportTimeAndDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported on: "/>
+
+    <TextView
+        android:id="@+id/categoryTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Category: "/>
+    <TextView
+        android:id="@+id/usercommentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User's comment: "/>
+    <TextView
+        android:id="@+id/burningAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Address: "/>
+    <TextView
+        android:id="@+id/userNameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported by: "/>
+    <TextView
+        android:id="@+id/userIDNumTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User ID/Passport number: "/>
+    <TextView
+        android:id="@+id/userAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Address: "/>
+    <TextView
+        android:id="@+id/userPhoneNumTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User contact information: "/>
+    <TextView
+        android:id="@+id/reportStatusTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: "/>
+
+        <TextView
+            android:id="@+id/officerAssignedTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assigned to: "/>
+
+    <TextView
+        android:id="@+id/actionTakenTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Action taken: "/>
+        <TextView
+            android:id="@+id/officerRemarkTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Officer's remark: "/>
+        <LinearLayout
+            android:id="@+id/attachmentLL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:text="Media attachment: "/>
+            <TextView
+                android:id="@+id/attachmentTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/teal_700"
+                android:text="filename"
+                />
+        </LinearLayout>
+    <Button
+        android:id="@+id/buttonAssignOfficer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Assign officer" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/idPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

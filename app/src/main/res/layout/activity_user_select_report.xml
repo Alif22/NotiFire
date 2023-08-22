@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".OfficerSelectReport">
+    <ProgressBar
+        android:id="@+id/idPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        tools:context=".OfficerSelectReport"
+        android:id="@+id/reportInfoLL"
+        android:visibility="gone"
+        android:padding="20dp">
+    <TextView
+        android:id="@+id/reportIDTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report ID: "
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/reportTimeAndDateTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reported on: "/>
+
+    <TextView
+        android:id="@+id/reportAddressTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Incident Address: "/>
+
+    <TextView
+        android:id="@+id/commentTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment: "/>
+
+    <TextView
+        android:id="@+id/statusTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status: "/>
+    <LinearLayout
+        android:id="@+id/attachmentLL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:text="Media attachment: "/>
+        <TextView
+            android:id="@+id/attachmentTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/teal_700"
+            android:text="filename"
+            />
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

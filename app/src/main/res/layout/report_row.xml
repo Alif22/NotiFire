@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="15dp"
+    app:cardElevation="10dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_marginBottom="-15dp"
+    android:layout_marginTop="-15dp">
+    <LinearLayout
+        android:id="@+id/rowContent"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/reportIDTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="reportID"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/statusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="String" />
+
+        <TextView
+            android:id="@+id/dateAndTimeTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DateAndTime" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

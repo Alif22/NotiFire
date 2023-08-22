@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.notifire">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NotiFire">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="yourkeyhere" />
+        <meta-data
+            android:name="com.example.notifire.ROOT_URL"
+            android:value="http://127.0.0.1:8080" />
+        <activity
+            android:name=".AdminAssignOfficer"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSelectReport"
+            android:exported="false" />
+        <activity
+            android:name=".UserSelectReport"
+            android:exported="false" />
+        <activity
+            android:name=".LoadingActivity"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".UserUpdateInfo"
+            android:exported="false" />
+        <activity
+            android:name=".AdminSelectUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminManageUser"
+            android:exported="false" />
+        <activity
+            android:name=".AdminOIReport"
+            android:exported="false" />
+        <activity
+            android:name=".AdminNewReport"
+            android:exported="false" />
+        <activity
+            android:name=".AdminAllReport"
+            android:exported="false" />
+        <activity
+            android:name=".AdminGenerateReport"
+            android:exported="false" />
+        <activity
+            android:name=".OfficerSelectReport"
+            android:exported="false" />
+        <activity
+            android:name=".UserRegistrationPage"
+            android:exported="false" />
+        <activity
+            android:name=".AdminDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".OfficerAssignedReport"
+            android:exported="false" />
+        <activity
+            android:name=".UserFileReport"
+            android:exported="false">
+        </activity>
+        <activity
+            android:name=".UserReportHistory"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </activity>
+        <activity
+            android:name=".UserMainPage"
+            android:exported="false" />
+        <service
+            android:name=".map.FetchAddressIntentService"
+            android:exported="false" />
+        <activity
+            android:name=".map.MapActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+    </application>
+
+</manifest>
